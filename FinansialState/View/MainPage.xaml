@@ -10,14 +10,15 @@
             VerticalOptions="Center">
 
             <Label
-                Text="Экономический анализ предприятия"
+                Text="Финансовый анализ предприятия"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 FontFamily="Garamond"
                 HorizontalOptions="Center"
                 VerticalOptions="Center" />
 
-            <Picker x:Name="MethodPickerFinState" Title = "Анализ финансового положения:"
+            <Label x:Name="header" Text="Анализ финансового положения:" FontSize="18" />
+            <Picker x:Name="MethodPickerFinState" Title = "Выберите способ:"
                     SelectedIndexChanged = "PickerSelectedIndexChangedFinState"
                     WidthRequest="550"
                     HorizontalOptions="Start" >
@@ -28,7 +29,8 @@
                 </Picker.Items>
             </Picker>
 
-            <Picker x:Name="MethodPickerEfficiency" Title = "Анализ эффективности деятельности организации:"
+            <Label x:Name="header1" Text="Анализ эффективности деятельности организации" FontSize="18" />
+            <Picker x:Name="MethodPickerEfficiency" Title = "Выбрать способ"
                     SelectedIndexChanged = "PickerSelectedIndexChangedEfficiency"
                     WidthRequest="550"
                     HorizontalOptions="Start" >
@@ -39,13 +41,14 @@
                 </Picker.Items>
             </Picker>
 
-            <Picker x:Name="MethodPickerResults" Title = "Выводы по результатам анализа:"
+            <Label x:Name="header2" Text="Выводы по результатам анализа:" FontSize="18" />
+            <Picker x:Name="MethodPickerResults" Title = "Выбрать способ"
                     SelectedIndexChanged = "PickerSelectedIndexChangedResults"
                     WidthRequest="550"
                     HorizontalOptions="Start" >
                 <Picker.Items>
                     <x:String>Оценка ключевых показателей</x:String>
-                    <x:String>Рейтинговая оценка финансового состоянияорганизации</x:String>
+                    <x:String>Рейтинговая оценка финансового состояния организации</x:String>
                     <x:String>Прогноз банкротства</x:String>
                 </Picker.Items>
             </Picker>
