@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/calamity/MyFiles/Coding/UniversityCoding/FinansialStateDemo/FinansialState/FinansialState.csproj": {}
+    "/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState/FinansialState.csproj": {}
   },
   "projects": {
-    "/Users/calamity/MyFiles/Coding/UniversityCoding/FinansialStateDemo/FinansialState/FinansialState.csproj": {
+    "/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState/FinansialState.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/calamity/MyFiles/Coding/UniversityCoding/FinansialStateDemo/FinansialState/FinansialState.csproj",
+        "projectUniqueName": "/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState/FinansialState.csproj",
         "projectName": "FinansialState",
-        "projectPath": "/Users/calamity/MyFiles/Coding/UniversityCoding/FinansialStateDemo/FinansialState/FinansialState.csproj",
+        "projectPath": "/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState/FinansialState.csproj",
         "packagesPath": "/Users/calamity/.nuget/packages/",
-        "outputPath": "/Users/calamity/MyFiles/Coding/UniversityCoding/FinansialStateDemo/FinansialState/obj/",
+        "outputPath": "/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

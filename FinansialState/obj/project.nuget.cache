@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DwJxGyy9i8zJe7DMwHGLTbP1ORUkv0yk1D9Bfxk+myMraSOwhqDjbhwh6k1SwVgVkb3EToDSusdXN5usK8DIag==",
+  "dgSpecHash": "V/lmqM75NbZ0IMTGRzbLq948wIiZ73pGPn1czKCEj1qFP3NwrwgexjFoqGU3SBHhcjHorqHcjR90D8ouQvz8Jw==",
   "success": true,
-  "projectFilePath": "/Users/calamity/MyFiles/Coding/UniversityCoding/FinansialStateDemo/FinansialState/FinansialState.csproj",
+  "projectFilePath": "/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState/FinansialState.csproj",
   "expectedPackageFiles": [
     "/Users/calamity/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/calamity/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
