@@ -1,31 +1,29 @@
 ﻿<Properties StartupConfiguration="{DBA65A0D-98FA-4D19-98A1-B3B5B7DE4F74}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.FinansialState PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinansialState/MauiProgram.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinansialState/View/MainPage.xaml">
     <Files>
-      <File FileName="FinansialState/View/MainPage.xaml" />
-      <File FileName="FinansialState/View/MainPage.xaml.cs" />
-      <File FileName="FinansialState/MauiProgram.cs" Line="27" Column="1" />
+      <File FileName="FinansialState/View/MainPage.xaml" Line="61" Column="1" />
+      <File FileName="FinansialState/View/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FinansialState/MauiProgram.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FinansialState">
+          <Node name="FinansialState" expanded="True">
             <Node name="FinansialState">
-              <Node name="Resources" expanded="True">
-                <Node name="Fonts" expanded="True" />
-              </Node>
-              <Node name="MauiProgram.cs" selected="True" />
+              <Node name="View" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

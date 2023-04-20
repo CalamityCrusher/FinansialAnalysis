@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/calamity/MyFiles/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState</SourceProjectPath>
+      <SourceProjectPath>/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialState/FinansialState</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

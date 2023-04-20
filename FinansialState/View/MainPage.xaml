@@ -18,7 +18,7 @@
                 VerticalOptions="Center" />
 
             <Label x:Name="header" Text="Анализ финансового положения:" FontSize="18" />
-            <Picker x:Name="MethodPickerFinState" Title = "Выберите способ:"
+            <Picker x:Name="MethodPickerFinState" Title = "Выбрать  способ"
                     SelectedIndexChanged = "PickerSelectedIndexChangedFinState"
                     WidthRequest="550"
                     HorizontalOptions="Start" >
