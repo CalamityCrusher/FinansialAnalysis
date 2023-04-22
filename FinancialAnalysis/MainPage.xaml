@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinancialAnalysis.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             Title="Main Page">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="10"
+            Padding="20,0"
+            VerticalOptions="Center">
+
+            <Label
+                x:Name="FinansialAnalysisHeader"
+                Text="Финансовый анализ предприятия"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                FontFamily="Garamond"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Padding="50" />
+
+            <Label x:Name="headerFinansialState" Text="1. Анализ финансового положения" FontSize="18" HorizontalOptions="Center" />
+            <Picker x:Name="MethodPickerFinansialState" Title = "Выбрать способ"
+                    SelectedIndexChanged = "PickerSelectedIndexChangedFinansialState"
+                    WidthRequest="550"
+                    HorizontalOptions="Center"
+                    VerticalTextAlignment="Center"
+                    >
+                <Picker.Items>
+                    <x:String>1.1 Структура имущества и источников</x:String>
+                    <x:String>1.2 Финансовая устойчивость</x:String>
+                    <x:String>1.3 Ликвидность</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Перейти"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="550"
+                Clicked="OnButtonClickedFinstate"/>
+            
+            <Label x:Name="headerEfficiency" Text="2. Анализ эффективности деятельности" FontSize="18" HorizontalOptions="Center" Padding="0, 50, 0, 0"/>
+            <Picker x:Name="MethodPickerEfficiency" Title = "Выбрать способ"
+                    SelectedIndexChanged = "PickerSelectedIndexChangedEfficiency"
+                    WidthRequest="550"
+                    HorizontalOptions="Center" >
+                <Picker.Items>
+                    <x:String>2.1 Рентабельность</x:String>
+                    <x:String>2.2 Оборачиваемость</x:String>
+                    <x:String>2.3 Факторный анализ рентабельности</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Перейти"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="550"
+                Clicked="OnButtonClickedEfficiency"/>
+
+            <Label x:Name="headerResults" Text="3. Выводы по результатам анализа" FontSize="18" HorizontalOptions="Center" Padding="0, 50, 0, 0"/>
+            <Picker x:Name="MethodPickerResults" Title = "Выбрать способ"
+                    SelectedIndexChanged = "PickerSelectedIndexChangedResults"
+                    WidthRequest="550"
+                    HorizontalOptions="Center" >
+                <Picker.Items>
+                    <x:String>3.1 Оценка ключевых показателей</x:String>
+                    <x:String>3.2 Рейтинговая оценка финансового состояния</x:String>
+                    <x:String>3.3 Прогноз банкротства</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Перейти"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="550"
+                Clicked="OnButtonClickedResults"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
