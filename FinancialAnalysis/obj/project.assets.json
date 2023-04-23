@@ -18450,11 +18450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialState/FinancialAnalysis/FinancialAnalysis.csproj",
+      "projectUniqueName": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj",
       "projectName": "FinancialAnalysis",
-      "projectPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialState/FinancialAnalysis/FinancialAnalysis.csproj",
+      "projectPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj",
       "packagesPath": "/Users/calamity/.nuget/packages/",
-      "outputPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialState/FinancialAnalysis/obj/",
+      "outputPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

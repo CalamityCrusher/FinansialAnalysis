@@ -4,60 +4,59 @@ namespace FinancialAnalysis;
 
 public partial class MainPage : ContentPage
 {
-    int PickedMethodFinansialState;
-    int PickedMethodEfficiency;
-    int PickedMethodResults;
+    int PickedFinansialStateIndex;
+    int PickedEfficiencyIndex;
+    int PickedResultsIndex;
 
     public MainPage()
     {
         InitializeComponent();
     }
 
-    void PickerSelectedIndexChangedFinansialState(object sender, EventArgs e)
+    void Picker_SelectedFinansialStateIndexChanged(object sender, EventArgs e)
     {
-        PickedMethodFinansialState = MethodPickerFinansialState.SelectedIndex;
+        PickedFinansialStateIndex = FinansialStateIndexPicker.SelectedIndex;
     }
 
-    void PickerSelectedIndexChangedEfficiency(object sender, EventArgs e)
+    void Picker_SelectedEfficiencyIndexChanged(object sender, EventArgs e)
     {
-        PickedMethodEfficiency = MethodPickerEfficiency.SelectedIndex;
+        PickedEfficiencyIndex = EfficiencyIndexPicker.SelectedIndex;
     }
 
-    void PickerSelectedIndexChangedResults(object sender, EventArgs e)
+    void Picker_SelectedResultsIndexChanged(object sender, EventArgs e)
     {
-        PickedMethodResults = MethodPickerResults.SelectedIndex;
+        PickedResultsIndex = ResultsIndexPicker.SelectedIndex;
     }
 
-    async void OnButtonClickedFinstate(object sender, EventArgs args)
+    async void OnButtonClickedFinansialState(object sender, EventArgs args)
     {
-        if (PickedMethodFinansialState == 0)
+        if (PickedFinansialStateIndex == 0)
             await Navigation.PushAsync(new Entry11StructureAssetsSourcesPage());
-        else if (PickedMethodFinansialState == 1)
+        else if (PickedFinansialStateIndex == 1)
             await Navigation.PushAsync(new Entry12FinansialSafetyPage());
-        else if (PickedMethodFinansialState == 2)
+        else if (PickedFinansialStateIndex == 2)
             await Navigation.PushAsync(new Entry13LiquidityPage());
     }
 
     async void OnButtonClickedEfficiency(object sender, EventArgs args)
     {
-        if (PickedMethodEfficiency == 0)
+        if (PickedEfficiencyIndex == 0)
             await Navigation.PushAsync(new Entry21ProfitabilityPage());
-        else if (PickedMethodEfficiency == 1)
+        else if (PickedEfficiencyIndex == 1)
             await Navigation.PushAsync(new Entry22TurnoverPage());
-        else if (PickedMethodEfficiency == 2)
+        else if (PickedEfficiencyIndex == 2)
             await Navigation.PushAsync(new Entry23DuPontPage());
     }
 
     async void OnButtonClickedResults(object sender, EventArgs args)
     {
-        if (PickedMethodResults == 0)
+        if (PickedResultsIndex == 0)
             await Navigation.PushAsync(new Entry31KeyIndexPage());
-        else if (PickedMethodResults == 1)
+        else if (PickedResultsIndex == 1)
             await Navigation.PushAsync(new Entry31KeyIndexPage());
-        else if (PickedMethodResults == 2)
+        else if (PickedResultsIndex == 2)
             await Navigation.PushAsync(new Entry33BankruptcyPage());
     }
-
     /*
     private void importExcel_Click(object sender, EventArgs e)
     {

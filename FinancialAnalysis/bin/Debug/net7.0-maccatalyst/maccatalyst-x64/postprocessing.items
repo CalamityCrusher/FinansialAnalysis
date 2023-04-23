@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>FinancialAnalysis.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialState/FinancialAnalysis/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>FinancialAnalysis.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialState/FinancialAnalysis</SourceProjectPath>
+      <SourceProjectPath>/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>
