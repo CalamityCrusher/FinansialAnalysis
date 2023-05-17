@@ -5,7 +5,9 @@
              Title="Entry33BankruptcyPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Мои поздравления, вы - банкрот"
+            FontSize="40"
+            Padding="100"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5OGsysIRR3z5XbZgeGy7bzDNP/GQkuQYKNPFGiDT8z1P+6h2SMPIEhnoVKNGqD1ImqEnVLZWHCsHn15hqll63A==",
+  "dgSpecHash": "UaQiyps0G0FsEFpGYEGpBOTI06T4r4Iv4UC3XbSHdRHnGGgXNLbDidkVk/VUKRJRVYvFsT2k3q6OYzqiHP/WYw==",
   "success": true,
   "projectFilePath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj",
   "expectedPackageFiles": [
+    "/Users/calamity/.nuget/packages/communitytoolkit.maui/5.1.0/communitytoolkit.maui.5.1.0.nupkg.sha512",
+    "/Users/calamity/.nuget/packages/communitytoolkit.maui.core/5.1.0/communitytoolkit.maui.core.5.1.0.nupkg.sha512",
+    "/Users/calamity/.nuget/packages/communitytoolkit.mvvm/8.1.0/communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "/Users/calamity/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/calamity/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/calamity/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

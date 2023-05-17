@@ -8,6 +8,24 @@ public partial class MainPage : ContentPage
     int PickedEfficiencyIndex;
     int PickedResultsIndex;
 
+    public const float
+    AUTONOMY_RATIO = 0.50f,
+    DEBT_TO_EQUITY_RATIO = 1.50f,
+    WORKING_CAPITAL_FINANCED_BY_EQUITY_TO_TOTAL_ASSETS_RATIO = 0.10F,
+    COVERAGE_RATIO_OF_INVESTMENTS = 0.65f,
+    CURRENT_RATIO = 1.70f,
+    CASH_RATIO = 0.20f;
+
+    public const int
+    QUICK_RATIO = 1,
+    RETURN_ON_SALES = 4,
+    RETURN_ON_EQUITY = 13,
+    RETURN_ON_ASSETS = 4,
+    CURRENT_ASSETS_TURNOVER = 115,
+    INVENTORY_TURNOVER = 12,
+    ACCOUNTS_RECEIVABLE_TURNOVER = 54,
+    ASSETS_TURNOVER = 139;  
+
     public MainPage()
     {
         InitializeComponent();

@@ -1225,3 +1225,6 @@
 /Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FinancialAnalysis.pdb
 /Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FinancialAnalysis.genruntimeconfig.cache
 /Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/ref/FinancialAnalysis.dll
+/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/CommunityToolkit.Maui.dll
+/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/CommunityToolkit.Maui.Core.dll
+/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/CommunityToolkit.Mvvm.dll

@@ -2,11 +2,141 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinancialAnalysis.View.Entry22TurnoverPage"
-             Title="Entry22TurnoverPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="2.2 Оборачиваемость"
+             BackgroundColor="#c0dfd3">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#3a4c40"/>
+                <Setter Property="FontSize" Value="22"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontFamily" Value="Garamond"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="entryStyle" TargetType="Entry">
+                <Setter Property="TextColor" Value="#090909"/>
+                <Setter Property="BackgroundColor" Value="#9ccbb8"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontFamily" Value="Garamond"/>
+                <Setter Property="WidthRequest" Value="550"/>
+                <Setter Property="Opacity" Value="80"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="Keyboard" Value="Numeric"/>
+                <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>     
+            </Style>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#c0dfd3"/>
+                <Setter Property="BackgroundColor" Value="#3a4c40"/>
+                <Setter Property="FontSize" Value="22"/>
+                <Setter Property="FontFamily" Value="Garamond"/>
+                <Setter Property="WidthRequest" Value="550"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Padding" Value="20"/>
+            </Style>
+            <Style x:Key="InvalidEntryStyle" TargetType="Entry">
+                <Setter Property="TextColor" Value="#690200" />
+            </Style> 
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label
+                x:Name="headerEntry22Turnover"
+                Text="Расчет показателей оборачиваемости"
+                TextDecorations="Underline"
+                FontSize="32"
+                Padding="50"
+                Style="{StaticResource labelStyle}"/>
+
+            <Label
+                Text="Выручка"
+                Padding="0,0,0,10"
+                Style="{StaticResource labelStyle}"/>
+            <Entry
+                x:Name="Entry22ProfitStart"
+                Placeholder="Начало периода"
+                Style="{StaticResource entryStyle}"/>
+            <Entry
+                x:Name="Entry22ProfitEnd"
+                Placeholder="Конец периода"
+                Style="{StaticResource entryStyle}"/>
+
+            <Label
+                Text="Средняя стоимость оборотных активов"
+                Padding="0,30,0,10"
+                Style="{StaticResource labelStyle}"/>
+            <Entry
+                x:Name="Entry22AverageCurrentAssetsStart"
+                Placeholder="Начало периода"
+                Style="{StaticResource entryStyle}"/>
+            <Entry
+                x:Name="Entry22AverageCurrentAssetsEnd"
+                Placeholder="Конец периода"
+                Style="{StaticResource entryStyle}"/>
+
+            <Label
+                Text="Средняя стоимость запасов"
+                Padding="0,30,0,10"
+                Style="{StaticResource labelStyle}"/>
+            <Entry
+                x:Name="Entry22AverageReservesStart"
+                Placeholder="Начало периода"
+                Style="{StaticResource entryStyle}"/>
+            <Entry
+                x:Name="Entry22AverageReservesEnd"
+                Placeholder="Конец периода"
+                Style="{StaticResource entryStyle}"/>
+
+            <Label
+                Text="Средняя величина дебиторской задолженности"
+                Padding="0,30,0,10"
+                Style="{StaticResource labelStyle}"/>
+            <Entry
+                x:Name="Entry22AverageAccountsReceivableStart"
+                Placeholder="Начало периода"
+                Style="{StaticResource entryStyle}"/>
+            <Entry
+                x:Name="Entry22AverageAccountsReceivableEnd"
+                Placeholder="Конец периода"
+                Style="{StaticResource entryStyle}"/>
+
+            <Label
+                Text="Средняя стоимость активов"
+                Padding="0,30,0,10"
+                Style="{StaticResource labelStyle}"/>
+            <Entry
+                x:Name="Entry22AverageAssetsStart"
+                Placeholder="Начало периода"
+                Style="{StaticResource entryStyle}"/>
+            <Entry
+                x:Name="Entry22AverageAssetsEnd"
+                Placeholder="Конец периода"
+                Style="{StaticResource entryStyle}"/>
+
+            <Label
+                Text="Средняя величина собственного капитала"
+                Padding="0,30,0,10"
+                Style="{StaticResource labelStyle}"/>
+            <Entry
+                x:Name="Entry22AverageOwnedCapitalStart"
+                Placeholder="Начало периода"
+                Style="{StaticResource entryStyle}"/>
+            <Entry
+                x:Name="Entry22AverageOwnedCapitalEnd"
+                Placeholder="Конец периода"
+                Style="{StaticResource entryStyle}"/>
+
+            <Label
+                Text=""
+                Padding="0,20,0,10"
+                Style="{StaticResource labelStyle}"/>
+
+            <Button
+                Text="Рассчитать"
+                Style="{StaticResource buttonStyle}"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

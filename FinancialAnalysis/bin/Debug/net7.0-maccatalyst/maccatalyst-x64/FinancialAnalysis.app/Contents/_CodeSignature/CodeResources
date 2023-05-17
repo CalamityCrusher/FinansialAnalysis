@@ -59,18 +59,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/CommunityToolkit.Maui.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+LF0nzcA3KlFQrVV6y+5+zXdy48V9PT44MqheAkC1cA=
+			</data>
+		</dict>
+		<key>MonoBundle/CommunityToolkit.Maui.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LGiOzx0eWvG0jqB6P71HVu5eLBlZkuIeORdNLD+bZeo=
+			</data>
+		</dict>
+		<key>MonoBundle/CommunityToolkit.Mvvm.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZdC70jHEKi0+I0r1FTTj/23Iyvsb7SVj3Y78fa45r8o=
+			</data>
+		</dict>
 		<key>MonoBundle/FinancialAnalysis.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+9Jt1LlgNTmRbq9xNvdKApHb0+g9MOVa5c2vydNAd4=
+			v2E9PDoLN3pHzFFuC0W2wz8R2P1klRJ//JjWAOyEezY=
 			</data>
 		</dict>
 		<key>MonoBundle/FinancialAnalysis.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cj+XlYm3Au3Eon1GSijQZvX+VRT4D9lxx45uqFSiDQU=
+			/QAbu6/73oXrU8g67pDiNBNKnDl9TcXEg9CI+YBRVE4=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>

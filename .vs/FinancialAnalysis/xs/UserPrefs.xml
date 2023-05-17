@@ -1,22 +1,27 @@
 ﻿<Properties StartupConfiguration="{FB469988-49BB-4406-8124-FD9696FED3C1}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinancialAnalysis/MauiProgram.cs">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinancialAnalysis/View/Entry13LiquidityPage.xaml.cs">
     <Files>
-      <File FileName="FinancialAnalysis/MauiProgram.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="FinancialAnalysis/MainPage.xaml" Line="37" Column="1" IsPinned="True" />
+      <File FileName="FinancialAnalysis/View/Entry11StructureAssetsSourcesPage.xaml.cs" Line="22" Column="30" />
+      <File FileName="FinancialAnalysis/View/Entry13LiquidityPage.xaml.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinancialAnalysis" expanded="True">
             <Node name="FinancialAnalysis">
-              <Node name="View">
+              <Node name="View" expanded="True">
                 <Node name="Entry11StructureAssetsSourcesPage.xaml" expanded="True" />
+                <Node name="Entry12FinansialSafetyPage.xaml" expanded="True" />
+                <Node name="Entry13LiquidityPage.xaml" expanded="True">
+                  <Node name="Entry13LiquidityPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="Entry21ProfitabilityPage.xaml" expanded="True" />
               </Node>
-              <Node name="AppShell.xaml" expanded="True" />
-              <Node name="MauiProgram.cs" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -25,7 +30,8 @@
   </MonoDevelop.Ide.Workbench>
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.FinancialAnalysis PreferredExecutionTarget="MyAppleMacCatalystID" />
 </Properties>
