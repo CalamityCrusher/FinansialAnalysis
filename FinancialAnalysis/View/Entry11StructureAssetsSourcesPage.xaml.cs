@@ -26,27 +26,27 @@ public partial class Entry11StructureAssetsSourcesPage : ContentPage
         if (Entry11FixedAssetsStart.Text.Contains(" ") == false &
             Entry11FixedAssetsStart.Text != "" &
             Entry11FixedAssetsEnd.Text.Contains(" ") == false &
-            Entry11FixedAssetsEnd.Text.Contains("") == false &
+            Entry11FixedAssetsEnd.Text != "" &
             Entry11CurrentAssetsStart.Text.Contains(" ") == false &
-            Entry11CurrentAssetsStart.Text.Contains("") == false &
+            Entry11CurrentAssetsStart.Text != "" &
             Entry11CurrentAssetsEnd.Text.Contains(" ") == false &
-            Entry11CurrentAssetsEnd.Text.Contains("") == false &
+            Entry11CurrentAssetsEnd.Text != "" &
             Entry11OwnedCapitalStart.Text.Contains(" ") == false &
-            Entry11OwnedCapitalStart.Text.Contains("") == false &
+            Entry11OwnedCapitalStart.Text != "" &
             Entry11OwnedCapitalEnd.Text.Contains(" ") == false &
-            Entry11OwnedCapitalEnd.Text.Contains("") == false &
+            Entry11OwnedCapitalEnd.Text != "" &
             Entry11LongtermLiabilitiesStart.Text.Contains(" ") == false &
-            Entry11LongtermLiabilitiesStart.Text.Contains("") == false &
+            Entry11LongtermLiabilitiesStart.Text != "" &
             Entry11LongtermLiabilitiesEnd.Text.Contains(" ") == false &
-            Entry11LongtermLiabilitiesEnd.Text.Contains("") == false &
+            Entry11LongtermLiabilitiesEnd.Text != "" &
             Entry11CurrentLiabilitiesStart.Text.Contains(" ") == false &
-            Entry11CurrentLiabilitiesStart.Text.Contains("") == false &
+            Entry11CurrentLiabilitiesStart.Text != "" &
             Entry11CurrentLiabilitiesEnd.Text.Contains(" ") == false &
-            Entry11CurrentLiabilitiesEnd.Text.Contains("") == false &
+            Entry11CurrentLiabilitiesEnd.Text != "" &
             Entry11CapitalStockStart.Text.Contains(" ") == false &
-            Entry11CapitalStockStart.Text.Contains("") == false &
+            Entry11CapitalStockStart.Text != "" &
             Entry11CapitalStockEnd.Text.Contains(" ") == false &
-            Entry11CapitalStockEnd.Text.Contains("") == false)
+            Entry11CapitalStockEnd.Text != "")
         {
             FixedAssetsStart = Convert.ToUInt32(Entry11FixedAssetsStart.Text);
             FixedAssetsEnd = Convert.ToUInt32(Entry11FixedAssetsEnd.Text);

@@ -25,29 +25,29 @@ public partial class Entry22TurnoverPage : ContentPage
     async void OnButtonClickedProfitability(object sender, EventArgs args)
     {
         if (Entry22ProfitStart.Text.Contains(" ") == false &
-            Entry22ProfitStart.Text.Contains("") == false &
+            Entry22ProfitStart.Text != "" &
             Entry22ProfitEnd.Text.Contains(" ") == false &
-            Entry22ProfitEnd.Text.Contains("") == false &
+            Entry22ProfitEnd.Text != "" &
             Entry22AverageCurrentAssetsStart.Text.Contains(" ") == false &
-            Entry22AverageCurrentAssetsStart.Text.Contains("") == false &
+            Entry22AverageCurrentAssetsStart.Text != "" &
             Entry22AverageCurrentAssetsEnd.Text.Contains(" ") == false &
-            Entry22AverageCurrentAssetsEnd.Text.Contains("") == false &
+            Entry22AverageCurrentAssetsEnd.Text != "" &
             Entry22AverageReservesStart.Text.Contains(" ") == false &
-            Entry22AverageReservesStart.Text.Contains("") == false &
+            Entry22AverageReservesStart.Text != "" &
             Entry22AverageReservesEnd.Text.Contains(" ") == false &
-            Entry22AverageReservesEnd.Text.Contains("") == false &
+            Entry22AverageReservesEnd.Text != "" &
             Entry22AverageAccountsReceivableStart.Text.Contains(" ") == false &
-            Entry22AverageAccountsReceivableStart.Text.Contains("") == false &
+            Entry22AverageAccountsReceivableStart.Text != "" &
             Entry22AverageAccountsReceivableEnd.Text.Contains(" ") == false &
-            Entry22AverageAccountsReceivableEnd.Text.Contains("") == false &
+            Entry22AverageAccountsReceivableEnd.Text != "" &
             Entry22AverageAssetsStart.Text.Contains(" ") == false &
-            Entry22AverageAssetsStart.Text.Contains("") == false &
+            Entry22AverageAssetsStart.Text != "" &
             Entry22AverageAssetsEnd.Text.Contains(" ") == false &
-            Entry22AverageAssetsEnd.Text.Contains("") == false &
+            Entry22AverageAssetsEnd.Text != "" &
             Entry22AverageOwnedCapitalStart.Text.Contains(" ") == false &
-            Entry22AverageOwnedCapitalStart.Text.Contains("") == false &
+            Entry22AverageOwnedCapitalStart.Text != "" &
             Entry22AverageOwnedCapitalEnd.Text.Contains(" ") == false &
-            Entry22AverageOwnedCapitalEnd.Text.Contains("") == false)
+            Entry22AverageOwnedCapitalEnd.Text != "")
         {
             ProfitStart = Convert.ToUInt32(Entry22ProfitStart.Text);
             ProfitEnd = Convert.ToUInt32(Entry22ProfitEnd.Text);

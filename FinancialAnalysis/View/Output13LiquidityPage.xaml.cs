@@ -6,4 +6,9 @@ public partial class Output13LiquidityPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	async void OnButtonClickedLiquidityExit(object sender, EventArgs args)
+	{
+		await Navigation.PopToRootAsync();
+	}
 }

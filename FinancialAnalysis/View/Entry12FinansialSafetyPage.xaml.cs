@@ -25,33 +25,33 @@ public partial class Entry12FinansialSafetyPage : ContentPage
     async void OnButtonClickedFinansialSafety(object sender, EventArgs args)
     {
         if (Entry12OwnedCapitalStart.Text.Contains(" ") == false &
-            Entry12OwnedCapitalStart.Text.Contains("") &
+            Entry12OwnedCapitalStart.Text != "" &
             Entry12OwnedCapitalEnd.Text.Contains(" ") == false &
-            Entry12OwnedCapitalEnd.Text.Contains("") == false &
+            Entry12OwnedCapitalEnd.Text != "" &
             Entry12TotalCapitalStart.Text.Contains(" ") == false &
-            Entry12TotalCapitalStart.Text.Contains("") == false &
+            Entry12TotalCapitalStart.Text != "" &
             Entry12TotalCapitalEnd.Text.Contains(" ") == false &
-            Entry12TotalCapitalEnd.Text.Contains("") == false &
+            Entry12TotalCapitalEnd.Text != "" &
             Entry12LoanCapitalStart.Text.Contains(" ") == false &
-            Entry12LoanCapitalStart.Text.Contains("") == false &
+            Entry12LoanCapitalStart.Text != "" &
             Entry12LoanCapitalEnd.Text.Contains(" ") == false &
-            Entry12LoanCapitalEnd.Text.Contains("") == false &
+            Entry12LoanCapitalEnd.Text != "" &
             Entry12NetWorkingCapitalStart.Text.Contains(" ") == false &
-            Entry12NetWorkingCapitalStart.Text.Contains("") == false &
+            Entry12NetWorkingCapitalStart.Text != "" &
             Entry12NetWorkingCapitalEnd.Text.Contains(" ") == false &
-            Entry12NetWorkingCapitalEnd.Text.Contains("") == false &
+            Entry12NetWorkingCapitalEnd.Text != "" &
             Entry12CurrentAssetsStart.Text.Contains(" ") == false &
-            Entry12CurrentAssetsStart.Text.Contains("") == false &
+            Entry12CurrentAssetsStart.Text != "" &
             Entry12CurrentAssetsEnd.Text.Contains(" ") == false &
-            Entry12CurrentAssetsEnd.Text.Contains("") == false &
+            Entry12CurrentAssetsEnd.Text != "" &
             Entry12FixedAssetsStart.Text.Contains(" ") == false &
-            Entry12FixedAssetsStart.Text.Contains("") == false &
+            Entry12FixedAssetsStart.Text != "" &
             Entry12FixedAssetsEnd.Text.Contains(" ") == false &
-            Entry12FixedAssetsEnd.Text.Contains("") == false &
+            Entry12FixedAssetsEnd.Text != "" &
             Entry12LongtermLiabilitiesStart.Text.Contains(" ") == false &
-            Entry12LongtermLiabilitiesStart.Text.Contains("") == false &
+            Entry12LongtermLiabilitiesStart.Text != "" &
             Entry12LongtermLiabilitiesEnd.Text.Contains(" ") == false &
-            Entry12LongtermLiabilitiesEnd.Text.Contains("") == false)
+            Entry12LongtermLiabilitiesEnd.Text != "")
         {
             OwnedCapitalStart = Convert.ToUInt32(Entry12OwnedCapitalStart.Text);
             OwnedCapitalEnd = Convert.ToUInt32(Entry12OwnedCapitalEnd.Text);
