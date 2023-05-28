@@ -7,18 +7,20 @@ public partial class Entry13LiquidityPage : ContentPage
 		InitializeComponent();
 	}
 
-    uint CurrentAssetsStart, CurrentAssetsEnd,
-         LiquidAssetsStart, LiquidAssetsEnd,
-         QuickAssetsStart, QuickAssetsEnd,
-         CurrentLiabilitiesStart, CurrentLiabilitiesEnd;
-
-    float CurrentRatioStart, CurrentRatioEnd, CurrentRatioDifference,
-         QuickRatioStart, QuickRatioEnd,QuickRatioDifference,
-         CashRatioStart, CashRatioEnd, CashRatioDifference;
-
     async void OnButtonClickedLiquidity(object sender, EventArgs args)
     {
-        if (Entry13CurrentAssetsStart.Text.Contains(" ") == false &
+        Preferences.Default.Set("CurrentAssetsStart", Convert.ToInt32(Entry13CurrentAssetsStart.Text));
+        Preferences.Default.Set("CurrentAssetsEnd", Convert.ToInt32(Entry13CurrentAssetsEnd.Text));
+        Preferences.Default.Set("LiquidAssetsStart", Convert.ToInt32(Entry13LiquidAssetsStart.Text));
+        Preferences.Default.Set("LiquidAssetsEnd", Convert.ToInt32(Entry13LiquidAssetsEnd.Text));
+        Preferences.Default.Set("QuickAssetsStart", Convert.ToInt32(Entry13QuickAssetsStart.Text));
+        Preferences.Default.Set("QuickAssetsEnd", Convert.ToInt32(Entry13QuickAssetsEnd.Text));
+        Preferences.Default.Set("CurrentLiabilitiesStart", Convert.ToInt32(Entry13CurrentLiabilitiesStart.Text));
+        Preferences.Default.Set("CurrentLiabilitiesEnd", Convert.ToInt32(Entry13CurrentLiabilitiesEnd.Text));
+
+        await Navigation.PushAsync(new Output13LiquidityPage());
+
+        /* if (Entry13CurrentAssetsStart.Text.Contains(" ") == false &
             Entry13CurrentAssetsStart.Text != "" &
             Entry13CurrentAssetsEnd.Text.Contains(" ") == false &
             Entry13CurrentAssetsEnd.Text != "" &
@@ -46,16 +48,14 @@ public partial class Entry13LiquidityPage : ContentPage
 
             CurrentRatioStart = CurrentAssetsStart / CurrentLiabilitiesStart;
             CurrentRatioEnd = CurrentAssetsEnd / CurrentLiabilitiesEnd;
-            CurrentRatioDifference = Convert.ToInt32(CurrentRatioEnd) - Convert.ToInt32(CurrentRatioStart);
+            CurrentRatioDifference = CurrentRatioEnd - CurrentRatioStart;
             QuickRatioStart = LiquidAssetsStart / CurrentLiabilitiesStart;
             QuickRatioEnd = LiquidAssetsEnd / CurrentLiabilitiesEnd;
-            QuickRatioDifference = Convert.ToInt32(QuickAssetsEnd) - Convert.ToInt32(QuickAssetsStart);
+            QuickRatioDifference = QuickAssetsEnd - QuickAssetsStart;
             CashRatioStart = QuickAssetsStart / CurrentLiabilitiesStart;
             CashRatioEnd = QuickAssetsEnd / CurrentLiabilitiesEnd;
-            CashRatioDifference = Convert.ToInt32(CashRatioEnd) - Convert.ToInt32(CashRatioEnd);
-
-            await Navigation.PushAsync(new Output13LiquidityPage());
-        }
+            CashRatioDifference = CashRatioEnd - CashRatioEnd; 
+        } */
     }
 
 }

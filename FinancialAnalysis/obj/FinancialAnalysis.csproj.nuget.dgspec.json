@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj": {}
+    "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/Fin/FinancialAnalysis/FinancialAnalysis.csproj": {}
   },
   "projects": {
-    "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj": {
+    "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/Fin/FinancialAnalysis/FinancialAnalysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj",
+        "projectUniqueName": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/Fin/FinancialAnalysis/FinancialAnalysis.csproj",
         "projectName": "FinancialAnalysis",
-        "projectPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj",
+        "projectPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/Fin/FinancialAnalysis/FinancialAnalysis.csproj",
         "packagesPath": "/Users/calamity/.nuget/packages/",
-        "outputPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/obj/",
+        "outputPath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/Fin/FinancialAnalysis/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -84,7 +84,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.86, )",
               "autoReferenced": true
             },
             "Xamarin.Android.Glide": {
@@ -171,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -210,7 +210,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.86, )",
               "autoReferenced": true
             }
           },
@@ -242,7 +242,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -281,7 +281,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.86, )",
               "autoReferenced": true
             }
           },
@@ -314,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -331,6 +331,9 @@
           "#import": []
         },
         "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

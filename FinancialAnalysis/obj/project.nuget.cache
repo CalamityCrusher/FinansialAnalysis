@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UaQiyps0G0FsEFpGYEGpBOTI06T4r4Iv4UC3XbSHdRHnGGgXNLbDidkVk/VUKRJRVYvFsT2k3q6OYzqiHP/WYw==",
+  "dgSpecHash": "eDvUjSWQ6hYDW1bmHloAzMLGtxK/fsMALxMha9GU2cIBAa5CCt8b/mFFqjbvmwglgHl839nilUDMAfrfQX0Vvg==",
   "success": true,
-  "projectFilePath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/FinansialAnalysis/FinancialAnalysis/FinancialAnalysis.csproj",
+  "projectFilePath": "/Users/calamity/Documents/Coding/UniversityCoding/CourseProject/Fin/FinancialAnalysis/FinancialAnalysis.csproj",
   "expectedPackageFiles": [
     "/Users/calamity/.nuget/packages/communitytoolkit.maui/5.1.0/communitytoolkit.maui.5.1.0.nupkg.sha512",
     "/Users/calamity/.nuget/packages/communitytoolkit.maui.core/5.1.0/communitytoolkit.maui.core.5.1.0.nupkg.sha512",
@@ -17,7 +17,7 @@
     "/Users/calamity/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/calamity/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/calamity/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/calamity/.nuget/packages/microsoft.maui.graphics/7.0.81/microsoft.maui.graphics.7.0.81.nupkg.sha512",
+    "/Users/calamity/.nuget/packages/microsoft.maui.graphics/7.0.86/microsoft.maui.graphics.7.0.86.nupkg.sha512",
     "/Users/calamity/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/calamity/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/calamity/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

@@ -54,19 +54,21 @@
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
+                <RowDefinition />
             </Grid.RowDefinitions>
 
             <BoxView Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
             <BoxView Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
-            <BoxView Grid.Column="0" Grid.Row="2" Style="{StaticResource boxviewStyle}"/>
-            <BoxView Grid.Column="1" Grid.Row="2" Style="{StaticResource boxviewStyle}"/>
-            <BoxView Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
-            <BoxView Grid.Column="0" Grid.Row="4" Style="{StaticResource boxviewStyle}"/>
-            <BoxView Grid.Column="1" Grid.Row="4" Style="{StaticResource boxviewStyle}"/>
-            <BoxView Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
-            <BoxView Grid.Column="0" Grid.Row="6" Style="{StaticResource boxviewStyle}"/>
-            <BoxView Grid.Column="1" Grid.Row="6" Style="{StaticResource boxviewStyle}"/>
-            <BoxView Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="3" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="3" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="5" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="5" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="7" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="7" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
 
             <Label
                 Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
@@ -76,23 +78,72 @@
                 Padding="50"
                 Style="{StaticResource labelStyle}"/>
 
-            <Label
+            <Button
                 Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
-                Text=" Коэффициент текущей ликвидности"
-                Style="{StaticResource labelStyle}"/>
-            
+                Text="Рассчитать"
+                WidthRequest="350"
+                Clicked="OnButtonClickedLiquidityResults"
+                Style="{StaticResource buttonStyle}"/>
+
             <Label
-                Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2"
-                Text=" Коэффициент быстрой ликвидности"
+                Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"
+                Text="Коэффициент текущей ликвидности"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="3"
+                x:Name="labelCurrentRatioStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="3"
+                x:Name="labelCurrentRatioEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="3"
+                x:Name="labelCurrentRatioDifference"
+                VerticalOptions="End"
                 Style="{StaticResource labelStyle}"/>
 
             <Label
-                Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2"
-                Text=" Коэффициент абсолютной ликвидности"
+                Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"
+                Text="Коэффициент быстрой ликвидности"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="5"
+                x:Name="labelQuickRatioStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="5"
+                x:Name="labelQuickRatioEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="5"
+                x:Name="labelQuickRatioDifference"
+                VerticalOptions="End"
+                Style="{StaticResource labelStyle}"/>
+
+            <Label
+                Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2"
+                Text="Коэффициент абсолютной ликвидности"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="7"
+                x:Name="labelCashRatioStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="7"
+                x:Name="labelCashRatioEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="7"
+                x:Name="labelCashRatioDifference"
+                VerticalOptions="End"
                 Style="{StaticResource labelStyle}"/>
 
             <Button
-                Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2"
+                Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2"
                 Text="Вернуться в главное меню"
                 Clicked="OnButtonClickedLiquidityExit"
                 Style="{StaticResource buttonStyle}"/>

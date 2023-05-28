@@ -104,7 +104,7 @@
                 Style="{StaticResource labelStyle}"/>
 
             <Button
-                Text="Рассчитать"
+                Text="Подтвердить"
                 Clicked="OnButtonClickedLiquidity"
                 Style="{StaticResource buttonStyle}"/>
         </VerticalStackLayout>
