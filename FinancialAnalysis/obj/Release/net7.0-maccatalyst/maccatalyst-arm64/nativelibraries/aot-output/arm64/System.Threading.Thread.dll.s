@@ -157,7 +157,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 90,129,139,149,214,9,29,145,149,13,3,36,128,52,97,132
+	.byte 188,78,7,171,79,163,221,180,7,63,64,108,144,179,235,248
 	.globl _mono_aot_module_System_Threading_Thread_info
 	.align 3
 _mono_aot_module_System_Threading_Thread_info:

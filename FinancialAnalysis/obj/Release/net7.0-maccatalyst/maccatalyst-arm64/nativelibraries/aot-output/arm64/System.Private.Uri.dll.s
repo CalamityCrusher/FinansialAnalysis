@@ -64022,7 +64022,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 193,150,89,254,23,37,67,183,127,193,205,118,13,11,2,110
+	.byte 205,18,108,54,50,178,24,75,124,140,17,195,244,148,46,14
 	.globl _mono_aot_module_System_Private_Uri_info
 	.align 3
 _mono_aot_module_System_Private_Uri_info:

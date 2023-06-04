@@ -22396,7 +22396,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 225,186,110,192,3,248,28,128,159,106,25,83,45,47,180,3
+	.byte 122,136,244,148,192,244,185,154,93,213,12,33,217,232,151,18
 	.globl _mono_aot_module_System_Collections_Immutable_info
 	.align 3
 _mono_aot_module_System_Collections_Immutable_info:

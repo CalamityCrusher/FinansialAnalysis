@@ -3709,7 +3709,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 226,54,95,222,205,6,248,71,24,80,24,114,19,250,108,70
+	.byte 224,94,171,113,4,13,96,78,249,211,24,246,180,157,68,30
 	.globl _mono_aot_module_System_Diagnostics_TraceSource_info
 	.align 3
 _mono_aot_module_System_Diagnostics_TraceSource_info:

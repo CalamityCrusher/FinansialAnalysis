@@ -19068,7 +19068,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 77,35,253,171,245,127,135,32,47,111,177,210,189,241,65,30
+	.byte 3,222,122,230,199,71,5,163,148,18,11,152,211,42,241,53
 	.globl _mono_aot_module_Microsoft_Extensions_Logging_Abstractions_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_Logging_Abstractions_info:

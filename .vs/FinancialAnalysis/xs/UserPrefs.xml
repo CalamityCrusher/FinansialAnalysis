@@ -1,16 +1,14 @@
-﻿<Properties DotNetCore.WorkloadInstallDontShowAgain="True" StartupConfiguration="{FB469988-49BB-4406-8124-FD9696FED3C1}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+﻿<Properties StartupConfiguration="{FB469988-49BB-4406-8124-FD9696FED3C1}|Default" DotNetCore.WorkloadInstallDontShowAgain="True">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.FinancialAnalysis PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
   <MonoDevelop.Ide.Workbench ActiveDocument="FinancialAnalysis/View/Output13LiquidityPage.xaml.cs">
     <Files>
       <File FileName="FinancialAnalysis/MainPage.xaml" Line="111" Column="15" IsPinned="True" />
-      <File FileName="FinancialAnalysis/View/Output13LiquidityPage.xaml" Line="103" Column="38" />
-      <File FileName="FinancialAnalysis/View/Output13LiquidityPage.xaml.cs" Line="34" Column="1" />
-      <File FileName="FinancialAnalysis/Platforms/MacCatalyst/Program.cs" Line="18" Column="1" />
-      <File FileName="FinancialAnalysis/View/Entry13LiquidityPage.xaml.cs" Line="20" Column="1" />
-      <File FileName="FinancialAnalysis/View/Entry13LiquidityPage.xaml" Line="55" Column="51" />
+      <File FileName="FinancialAnalysis/MainPage.xaml.cs" Line="17" Column="24" IsPinned="True" />
+      <File FileName="FinancialAnalysis/View/Output12FinansialSafetyPage.xaml.cs" Line="34" Column="1" />
+      <File FileName="FinancialAnalysis/View/Output13LiquidityPage.xaml.cs" Line="12" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,20 +19,23 @@
                 <Node name="MacCatalyst" expanded="True" />
               </Node>
               <Node name="View" expanded="True">
-                <Node name="Entry13LiquidityPage.xaml" expanded="True" />
+                <Node name="Entry12FinansialSafetyPage.xaml" expanded="True" />
+                <Node name="Entry22TurnoverPage.xaml" expanded="True" />
+                <Node name="Output12FinansialSafetyPage.xaml" expanded="True" />
                 <Node name="Output13LiquidityPage.xaml" expanded="True">
                   <Node name="Output13LiquidityPage.xaml.cs" selected="True" />
                 </Node>
               </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FinancialAnalysis PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

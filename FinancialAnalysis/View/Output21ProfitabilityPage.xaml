@@ -2,11 +2,175 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinancialAnalysis.View.Output21ProfitabilityPage"
-             Title="Output21ProfitabilityPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="2.1 Рентабельность"
+             BackgroundColor="#c0dfd3">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#3a4c40"/>
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontFamily" Value="Garamond"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="boxviewStyle" TargetType="BoxView">
+                <Setter Property="WidthRequest" Value="450"/>
+                <Setter Property="HeightRequest" Value="180"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="Color" Value="#9ccbb8"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            </Style>
+            <Style x:Key="boxviewtextStyle" TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="80"/>
+                <Setter Property="Color" Value="#c0dfd3"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#c0dfd3"/>
+                <Setter Property="BackgroundColor" Value="#3a4c40"/>
+                <Setter Property="FontSize" Value="22"/>
+                <Setter Property="FontFamily" Value="Garamond"/>
+                <Setter Property="WidthRequest" Value="550"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Padding" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <BoxView Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="3" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="3" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="5" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="5" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="7" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="7" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="9" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="1" Grid.Row="9" Style="{StaticResource boxviewStyle}"/>
+            <BoxView Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="2" Style="{StaticResource boxviewtextStyle}"/>
+
+            <Label
+                Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
+                Text="Анализ рентабельности"
+                TextDecorations="Underline"
+                FontSize="32"
+                Padding="50"
+                Style="{StaticResource labelStyle}"/>
+
+            <Button
+                Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
+                Text="Рассчитать"
+                WidthRequest="350"
+                Clicked="OnButtonClickedFinansialSafetyResults"
+                Style="{StaticResource buttonStyle}"/>
+
+            <Label
+                Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"
+                Text="Рентабельность продаж"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="3"
+                x:Name="labelReturnOnSalesStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="3"
+                x:Name="labelReturnOnSalesEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="3"
+                x:Name="labelReturnOnSalesDifference"
+                VerticalOptions="End"
+                Style="{StaticResource labelStyle}"/>
+
+            <Label
+                Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"
+                Text="Рентабельность собственного капитала"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="5"
+                x:Name="labelReturnOnEquityStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="5"
+                x:Name="labelReturnOnEquityEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="5"
+                x:Name="labelReturnOnEquityDifference"
+                VerticalOptions="End"
+                Style="{StaticResource labelStyle}"/>
+
+            <Label
+                Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2"
+                Text="Рентабельность активов"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="7"
+                x:Name="labelReturnOnAssetsStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="7"
+                x:Name="labelReturnOnAssetsEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="7"
+                x:Name="labelReturnOnAssetsDifference"
+                VerticalOptions="End"
+                Style="{StaticResource labelStyle}"/>
+
+            <Label
+                Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2"
+                Text="Рентабельность основных средств"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="9"
+                x:Name="labelReturnOnPermanentAssetsStart"
+                VerticalOptions="Start"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="9"
+                x:Name="labelReturnOnPermanentAssetsEnd"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="0" Grid.Row="9"
+                x:Name="labelReturnOnPermanentAssetsDifference"
+                VerticalOptions="End"
+                Style="{StaticResource labelStyle}"/>
+
+            <Button
+                Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="2"
+                Text="Вернуться в главное меню"
+                Clicked="OnButtonClickedProfitabilityExit"
+                Style="{StaticResource buttonStyle}"/>
+        </Grid>
+    </ScrollView>
 </ContentPage>
