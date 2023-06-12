@@ -25,68 +25,69 @@ public partial class Output12FinansialSafetyPage : ContentPage
         LongtermLiabilitiesStart = (float)(Preferences.Default.Get("LongtermLiabilitiesStart", -1)),
         LongtermLiabilitiesEnd = (float)(Preferences.Default.Get("LongtermLiabilitiesEnd", -1));
 
-        float AutonomyRatioStart = (float)(OwnedCapitalStart - TotalCapitalStart);
-        float AutonomyRatioEnd = (float)(OwnedCapitalEnd / TotalCapitalEnd);
-        float AutonomyRatioDifference = (float)(AutonomyRatioEnd - AutonomyRatioStart);
+        float
+        AutonomyRatioStart = (float)(OwnedCapitalStart - TotalCapitalStart),
+        AutonomyRatioEnd = (float)(OwnedCapitalEnd / TotalCapitalEnd),
+        AutonomyRatioDifference = (float)(AutonomyRatioEnd - AutonomyRatioStart),
       
-        float LeverageRatioStart = (float)(LoanCapitalStart - OwnedCapitalStart);
-        float LeverageRatioEnd = (float)(LoanCapitalEnd / OwnedCapitalEnd);
-        float LeverageRatioDifference = (float)(LeverageRatioEnd - LeverageRatioStart);
-       
-        float WorkingCapitalFinancedByEquityToTotalAssetsRatioStart = (float)(NetWorkingCapitalStart - TotalCapitalStart);
-        float WorkingCapitalFinancedByEquityToTotalAssetsRatioEnd = (float)(NetWorkingCapitalEnd / TotalCapitalEnd);
-        float WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference = (float)(WorkingCapitalFinancedByEquityToTotalAssetsRatioEnd - WorkingCapitalFinancedByEquityToTotalAssetsRatioStart);
+        LeverageRatioStart = (float)(LoanCapitalStart - OwnedCapitalStart),
+        LeverageRatioEnd = (float)(LoanCapitalEnd / OwnedCapitalEnd),
+        LeverageRatioDifference = (float)(LeverageRatioEnd - LeverageRatioStart),
         
-        float NetFixedAssetsIndexStart = (float)(OwnedCapitalStart - TotalCapitalStart);
-        float NetFixedAssetsIndexEnd = (float)(TotalCapitalEnd / TotalCapitalEnd);
-        float NetFixedAssetsIndexDifference = (float)(AutonomyRatioEnd - AutonomyRatioStart);
-         
-        float AssetCoverageRatioStart = (float)((OwnedCapitalStart + LongtermLiabilitiesStart)/TotalCapitalStart);
-        float AssetCoverageRatioEnd = (float)((OwnedCapitalEnd + LongtermLiabilitiesEnd) / TotalCapitalEnd);
-        float AssetCoverageRatioDifference = (float)(AssetCoverageRatioEnd - AssetCoverageRatioStart);
+        WorkingCapitalFinancedByEquityToTotalAssetsRatioStart = (float)(NetWorkingCapitalStart - TotalCapitalStart),
+        WorkingCapitalFinancedByEquityToTotalAssetsRatioEnd = (float)(NetWorkingCapitalEnd / TotalCapitalEnd),
+        WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference = (float)(WorkingCapitalFinancedByEquityToTotalAssetsRatioEnd - WorkingCapitalFinancedByEquityToTotalAssetsRatioStart),
+        
+        NetFixedAssetsIndexStart = (float)(OwnedCapitalStart - TotalCapitalStart),
+        NetFixedAssetsIndexEnd = (float)(TotalCapitalEnd / TotalCapitalEnd),
+        NetFixedAssetsIndexDifference = (float)(AutonomyRatioEnd - AutonomyRatioStart),
+        
+        AssetCoverageRatioStart = (float)((OwnedCapitalStart + LongtermLiabilitiesStart)/TotalCapitalStart),
+        AssetCoverageRatioEnd = (float)((OwnedCapitalEnd + LongtermLiabilitiesEnd) / TotalCapitalEnd),
+        AssetCoverageRatioDifference = (float)(AssetCoverageRatioEnd - AssetCoverageRatioStart);
 
-        labelAutonomyRatioStart.Text = $"В начале периода: {AutonomyRatioStart.ToString()}";
-        labelAutonomyRatioEnd.Text = $"В конце периода: {AutonomyRatioEnd.ToString()}";
+        labelAutonomyRatioStart.Text = $"В начале периода: {Math.Round(AutonomyRatioStart, 2).ToString()}";
+        labelAutonomyRatioEnd.Text = $"В конце периода: {Math.Round(AutonomyRatioEnd, 2).ToString()}";
         if (AutonomyRatioDifference < 0)
-            labelAutonomyRatioDifference.Text = $"Уменьшение на {(Math.Abs(AutonomyRatioDifference).ToString())}";
+            labelAutonomyRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(AutonomyRatioDifference), 2).ToString()}";
         else if ((AutonomyRatioDifference > 0))
-            labelAutonomyRatioDifference.Text = $"Увеличение на {AutonomyRatioDifference.ToString()}";
+            labelAutonomyRatioDifference.Text = $"Увеличение на {Math.Round(AutonomyRatioDifference, 2).ToString()}";
         else
             labelAutonomyRatioDifference.Text = "Показатель не изменился";
 
-        labelLeverageRatioStart.Text = $"В начале периода: {LeverageRatioStart.ToString()}";
-        labelLeverageRatioEnd.Text = $"В конце периода: {LeverageRatioEnd.ToString()}";
+        labelLeverageRatioStart.Text = $"В начале периода: {Math.Round(LeverageRatioStart, 2).ToString()}";
+        labelLeverageRatioEnd.Text = $"В конце периода: {Math.Round(LeverageRatioEnd, 2).ToString()}";
         if (LeverageRatioDifference < 0)
-            labelLeverageRatioDifference.Text = $"Уменьшение на {(Math.Abs(LeverageRatioDifference).ToString())}";
+            labelLeverageRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(LeverageRatioDifference), 2).ToString()}";
         else if ((LeverageRatioDifference > 0))
-            labelLeverageRatioDifference.Text = $"Увеличение на {LeverageRatioDifference.ToString()}";
+            labelLeverageRatioDifference.Text = $"Увеличение на {Math.Round(LeverageRatioDifference, 2).ToString()}";
         else
             labelLeverageRatioDifference.Text = "Показатель не изменился";
 
-        labelWorkingCapitalFinancedByEquityToTotalAssetsRatioStart.Text = $"В начале периода: {WorkingCapitalFinancedByEquityToTotalAssetsRatioStart.ToString()}";
-        labelWorkingCapitalFinancedByEquityToTotalAssetsRatioEnd.Text = $"В конце периода: {WorkingCapitalFinancedByEquityToTotalAssetsRatioEnd.ToString()}";
+        labelWorkingCapitalFinancedByEquityToTotalAssetsRatioStart.Text = $"В начале периода: {Math.Round(WorkingCapitalFinancedByEquityToTotalAssetsRatioStart, 2).ToString()}";
+        labelWorkingCapitalFinancedByEquityToTotalAssetsRatioEnd.Text = $"В конце периода: {Math.Round(WorkingCapitalFinancedByEquityToTotalAssetsRatioEnd, 2).ToString()}";
         if (WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference < 0)
-            labelWorkingCapitalFinancedByEquityToTotalAssetsRatioDifference.Text = $"Уменьшение на {(Math.Abs(WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference).ToString())}";
+            labelWorkingCapitalFinancedByEquityToTotalAssetsRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference), 2).ToString()}";
         else if ((WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference > 0))
-            labelWorkingCapitalFinancedByEquityToTotalAssetsRatioDifference.Text = $"Увеличение на {WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference.ToString()}";
+            labelWorkingCapitalFinancedByEquityToTotalAssetsRatioDifference.Text = $"Увеличение на {Math.Round(WorkingCapitalFinancedByEquityToTotalAssetsRatioDifference, 2).ToString()}";
         else
             labelWorkingCapitalFinancedByEquityToTotalAssetsRatioDifference.Text = "Показатель не изменился";
 
-        labelNetFixedAssetsIndexStart.Text = $"В начале периода: {NetFixedAssetsIndexStart.ToString()}";
-        labelNetFixedAssetsIndexEnd.Text = $"В конце периода: {NetFixedAssetsIndexEnd.ToString()}";
+        labelNetFixedAssetsIndexStart.Text = $"В начале периода: {Math.Round(NetFixedAssetsIndexStart, 2).ToString()}";
+        labelNetFixedAssetsIndexEnd.Text = $"В конце периода: {Math.Round(NetFixedAssetsIndexEnd, 2).ToString()}";
         if (NetFixedAssetsIndexDifference < 0)
-            labelNetFixedAssetsIndexDifference.Text = $"Уменьшение на {(Math.Abs(NetFixedAssetsIndexDifference).ToString())}";
+            labelNetFixedAssetsIndexDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(NetFixedAssetsIndexDifference), 2).ToString()}";
         else if ((NetFixedAssetsIndexDifference > 0))
-            labelNetFixedAssetsIndexDifference.Text = $"Увеличение на {NetFixedAssetsIndexDifference.ToString()}";
+            labelNetFixedAssetsIndexDifference.Text = $"Увеличение на {Math.Round(NetFixedAssetsIndexDifference, 2).ToString()}";
         else
             labelNetFixedAssetsIndexDifference.Text = "Показатель не изменился";
 
-        labelAssetCoverageRatioStart.Text = $"В начале периода: {AssetCoverageRatioStart.ToString()}";
-        labelAssetCoverageRatioEnd.Text = $"В конце периода: {AssetCoverageRatioEnd.ToString()}";
+        labelAssetCoverageRatioStart.Text = $"В начале периода: {Math.Round(AssetCoverageRatioStart, 2).ToString()}";
+        labelAssetCoverageRatioEnd.Text = $"В конце периода: {Math.Round(AssetCoverageRatioEnd, 2).ToString()}";
         if (AssetCoverageRatioDifference < 0)
-            labelAssetCoverageRatioDifference.Text = $"Уменьшение на {(Math.Abs(AssetCoverageRatioDifference).ToString())}";
+            labelAssetCoverageRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(AssetCoverageRatioDifference), 2).ToString()}";
         else if ((AssetCoverageRatioDifference > 0))
-            labelAssetCoverageRatioDifference.Text = $"Увеличение на {AssetCoverageRatioDifference.ToString()}";
+            labelAssetCoverageRatioDifference.Text = $"Увеличение на {Math.Round(AssetCoverageRatioDifference, 2).ToString()}";
         else
             labelAssetCoverageRatioDifference.Text = "Показатель не изменился";
     }

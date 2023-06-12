@@ -19,40 +19,41 @@ public partial class Output13LiquidityPage : ContentPage
         CurrentLiabilitiesStart = (float)(Preferences.Default.Get("CurrentLiabilitiesStart", -1)),
         CurrentLiabilitiesEnd = (float)(Preferences.Default.Get("CurrentLiabilitiesEnd", -1));
 
-        float CurrentRatioStart = (float)(CurrentAssetsStart / CurrentLiabilitiesStart);
-        float CurrentRatioEnd = (float)(CurrentAssetsEnd / CurrentLiabilitiesEnd);
-        float CurrentRatioDifference = (float)(CurrentRatioEnd - CurrentRatioStart);
-        float QuickRatioStart = (float)(LiquidAssetsStart / CurrentLiabilitiesStart);
-        float QuickRatioEnd = (float)(LiquidAssetsEnd / CurrentLiabilitiesEnd);
-        float QuickRatioDifference = (float)(QuickRatioEnd - QuickRatioStart);
-        float CashRatioStart = (float)(QuickAssetsStart / CurrentLiabilitiesStart);
-        float CashRatioEnd = (float)(QuickAssetsEnd / CurrentLiabilitiesEnd);
-        float CashRatioDifference = (float)(CashRatioEnd - CashRatioStart);
+        float
+        CurrentRatioStart = (float)(CurrentAssetsStart / CurrentLiabilitiesStart),
+        CurrentRatioEnd = (float)(CurrentAssetsEnd / CurrentLiabilitiesEnd),
+        CurrentRatioDifference = (float)(CurrentRatioEnd - CurrentRatioStart),
+        QuickRatioStart = (float)(LiquidAssetsStart / CurrentLiabilitiesStart),
+        QuickRatioEnd = (float)(LiquidAssetsEnd / CurrentLiabilitiesEnd),
+        QuickRatioDifference = (float)(QuickRatioEnd - QuickRatioStart),
+        CashRatioStart = (float)(QuickAssetsStart / CurrentLiabilitiesStart),
+        CashRatioEnd = (float)(QuickAssetsEnd / CurrentLiabilitiesEnd),
+        CashRatioDifference = (float)(CashRatioEnd - CashRatioStart);
 
-        labelCurrentRatioStart.Text = $"В начале периода: {CurrentRatioStart.ToString()}";
-        labelCurrentRatioEnd.Text = $"В конце периода: {CurrentRatioEnd.ToString()}";
+        labelCurrentRatioStart.Text = $"В начале периода: {Math.Round(CurrentRatioStart, 2).ToString()}";
+        labelCurrentRatioEnd.Text = $"В конце периода: {Math.Round(CurrentRatioEnd, 2).ToString()}";
         if (CurrentRatioDifference < 0)
-            labelCurrentRatioDifference.Text = $"Уменьшение на {(Math.Abs(CurrentRatioDifference).ToString())}";
+            labelCurrentRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(CurrentRatioDifference), 2).ToString()}";
         else if ((CurrentRatioDifference > 0))
-            labelCurrentRatioDifference.Text = $"Увеличение на {CurrentRatioDifference.ToString()}";
+            labelCurrentRatioDifference.Text = $"Увеличение на {Math.Round(CurrentRatioDifference, 2).ToString()}";
         else
             labelCurrentRatioDifference.Text = "Показатель не изменился";
 
-        labelQuickRatioStart.Text = $"В начале периода: {QuickRatioStart.ToString()}";
-        labelQuickRatioEnd.Text = $"В конце периода: {QuickRatioEnd.ToString()}";
+        labelQuickRatioStart.Text = $"В начале периода: {Math.Round(QuickRatioStart, 2).ToString()}";
+        labelQuickRatioEnd.Text = $"В конце периода: {Math.Round(QuickRatioEnd, 2).ToString()}";
         if (QuickRatioDifference < 0)
-            labelQuickRatioDifference.Text = $"Уменьшение на {(Math.Abs(QuickRatioDifference).ToString())}";
+            labelQuickRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(QuickRatioDifference), 2).ToString()}";
         else if ((QuickRatioDifference > 0))
-            labelQuickRatioDifference.Text = $"Увеличение на {QuickRatioDifference.ToString()}";
+            labelQuickRatioDifference.Text = $"Увеличение на {Math.Round(QuickRatioDifference, 2).ToString()}";
         else
             labelQuickRatioDifference.Text = "Показатель не изменился";
 
-        labelCashRatioStart.Text = $"В начале периода: {CashRatioStart.ToString()}";
-        labelCashRatioEnd.Text = $"В конце периода: {CashRatioEnd.ToString()}";
+        labelCashRatioStart.Text = $"В начале периода: {Math.Round(CashRatioStart, 2).ToString()}";
+        labelCashRatioEnd.Text = $"В конце периода: {Math.Round(CashRatioEnd, 2).ToString()}";
         if (CashRatioDifference < 0)
-            labelCashRatioDifference.Text = $"Уменьшение на {(Math.Abs(CashRatioDifference).ToString())}";
+            labelCashRatioDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(CashRatioDifference), 2).ToString()}";
         else if ((CashRatioDifference > 0))
-            labelCashRatioDifference.Text = $"Увеличение на {CashRatioDifference.ToString()}";
+            labelCashRatioDifference.Text = $"Увеличение на {Math.Round(CashRatioDifference, 2).ToString()}";
         else
             labelCashRatioDifference.Text = "Показатель не изменился";
     }

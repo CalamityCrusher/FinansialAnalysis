@@ -33377,7 +33377,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 16,226,235,194,63,56,110,115,32,92,82,17,68,61,248,25
+	.byte 123,170,123,34,253,216,151,66,93,65,190,12,247,170,196,104
 	.globl _mono_aot_module_System_Net_Primitives_info
 	.align 3
 _mono_aot_module_System_Net_Primitives_info:

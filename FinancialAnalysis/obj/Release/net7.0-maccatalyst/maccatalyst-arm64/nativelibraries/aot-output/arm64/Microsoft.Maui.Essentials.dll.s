@@ -37585,7 +37585,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 189,113,68,152,19,31,148,234,127,174,11,133,196,125,218,190
+	.byte 92,198,242,44,180,194,225,213,165,122,171,248,9,251,220,38
 	.globl _mono_aot_module_Microsoft_Maui_Essentials_info
 	.align 3
 _mono_aot_module_Microsoft_Maui_Essentials_info:

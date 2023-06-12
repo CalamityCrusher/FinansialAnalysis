@@ -5392,7 +5392,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 88,32,122,195,163,0,10,186,133,112,237,112,107,226,94,181
+	.byte 46,218,209,203,112,150,21,159,201,89,239,19,32,221,160,70
 	.globl _mono_aot_module_System_Net_Mail_info
 	.align 3
 _mono_aot_module_System_Net_Mail_info:

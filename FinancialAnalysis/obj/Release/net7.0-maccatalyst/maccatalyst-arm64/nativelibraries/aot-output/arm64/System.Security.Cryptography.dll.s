@@ -18353,7 +18353,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 120,37,211,88,98,4,29,33,171,61,20,25,254,123,105,215
+	.byte 72,47,62,101,120,226,251,182,157,81,74,185,165,95,2,160
 	.globl _mono_aot_module_System_Security_Cryptography_info
 	.align 3
 _mono_aot_module_System_Security_Cryptography_info:

@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		CTJCgtXHaLQM8Yg8LPpyy72S+50=
+		QoBnyueleVI3OdL5FuAKpHToSxg=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -59,357 +59,357 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W918bH+BhsjDrgvdpWaLyVzfaC69uwLMQFXUwi8pg/w=
+			px3guChv52UepAHeaUBy0+yEfnKJky3CXZyxgP6Z23U=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/CommunityToolkit.Maui.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vnvVcT7NW/0yxwifIgufEvw4M0HkGlg3iPvyDHbY8ag=
+			tiWHgHPGOTd3WCxvERf3em/0AH1d5zkWF0EeUDLxcz0=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/FinancialAnalysis.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pfte0UHjLSreJRr7b98nZZESxOyfH5ieLG9bFSSc2iA=
+			bflMp679UlDPCrykE0ZpVhQ3381sOrzP0q1jSZlQ7gg=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.Configuration.Abstractions.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aFLSkuo2jAd8xrlKxYL5Ku2OrHIlqdvs+Q/bGhaBghU=
+			/v6YQRvs2jBppHfXdIpce4j3orjyf3h9LKA5e631aYc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.Configuration.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xuuDJJUG9JgE4GAhQMpBR8Kd7yqXg8aXa1JLWNF7zXU=
+			GD/WOwWrfIcIyaAaNpounV7q2nvjPgPf3ius91BlsA4=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.DependencyInjection.Abstractions.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YuWLG1s72di2UK4vVExb93LqfRyfS1Dg2BpZnxH1q/M=
+			a9OsMPlxV/aQ6EUqaBCdMnY2DVurpnEZgCfYkxDSnGQ=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.DependencyInjection.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SdWriccpAcBlr1BRIh7y+X+yyMuT6Ljb9hf4mr+PxFY=
+			vfQxBWl7xt8BbvAW5pHFpAZekQGUM4BUv5Ks92OJ/v4=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.Logging.Abstractions.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBxdm9V/3xSJPwhWxWRimxxGIjxMAwAeTm7jlUF6S54=
+			EZg4KkrA/68Mh1tWWCagko7UdxSeYH24w1s4GYfDG+w=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.Logging.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+7ScRd8jCOUmwnHiqpIiV+vRkxRECkWHqcirfJuGqJA=
+			LoMFDqVxKF+xKgsxLvvgHJrwdXeVhln8T/hC1fwztDk=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.Options.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qR99rJ9lPQXWN4EPteQH4SnJlCBNg8tmLCbqcoKC4Ag=
+			IBdRsLYtcLqZWgyi6BaJ9NQW9qxC0kmSUpIrhAe9y7Y=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Extensions.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r3FgKnEHSOcbRrXw2g9qBlc07G/Du7PsArUltOTANaM=
+			2A0W1+nZo/KLA2KyAhW078C/Of9IkYrysNinOj2/2Pc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.MacCatalyst.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ux35MelfbQdAqtE27ur7QcpUGodorzeBgrVq6uCTP9c=
+			iubkwlFI7sreNeDQh2LhNdyFERe1+GJdkOV5GXhIPOA=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Maui.Controls.Xaml.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HvVDURKNrk4rrXrrpQImrDbqYekNI1d6HqNocDWMfZ8=
+			19MKF2DCn1iHWj3DI76o1cHYVt1T7Qc3AeGSAcwYNYE=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Maui.Controls.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ti8xY10qz+nlZyS46x5KqknrLnyhinML9DbrpWu6pOw=
+			uyri9w7MGXnmo3Fs2ZjXzqZ4oiGN1tnhm7OUXjTf078=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Maui.Essentials.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1J/IvbaOBJKxOowJEtIcYky7q+Y5XZMJRu0d317V4pQ=
+			FF2RA5s3+qum1O4NW1FqMUJirObXLMX0n7fJdB8kMIw=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Maui.Graphics.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzBDmgpiwIqljPJhuyjkZpE6gTwL/qE/nZYUbqaYz6o=
+			UAa/xPpVXAK1ly6IJVuZWyWclwHvShrtM/B9oSCQpYA=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/Microsoft.Maui.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnniXlVwVE8je9L/E53nH9D0sJk4byNMiw7FFWHVykw=
+			SsxzP/WuAKHk9uz3lBRr/XDTHJ16ig5Y+8+PGm2hYcI=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Collections.Concurrent.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLT553oNs7pbG2Q/WEhTsfo9jmqmiIzJLaPoFatbyEY=
+			O9CsLjuMFQhM/cghEh9qipBvCwaiClO7TZDpvDUz0tQ=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Collections.Immutable.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZOsjKTYkvdc7l78dYnzrBmsGLisImfnB8UXJlElITA=
+			9sg1cJiKruE3WIFBYIDCGP/15B1e8e1tRiHs6P1bH6w=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Collections.NonGeneric.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPQZw1f8KBcC8R3fFd7GQq5L67xKV+bBBNKQY2LOA7I=
+			euPp/4QxaCaoithCKEZq86uNygyO5i/0Mj+VRjGhBog=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Collections.Specialized.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mlJ9DOI53D54/RiYFLI7xHCCVp+C9aNqIRGbykPgsM=
+			E3XboJ8bhlK49gXqLyU9+5YnVxtg4E2DqXaZcXw+hwc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Collections.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gvcT37Pb6a8+ae7jj4N+EBkQm+HnF/rKIiC2lC7QoMY=
+			BY5kro5ae1CQEQFbFU4Ek/BlxCIOXKwLEeyQH0ctHUo=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.ComponentModel.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8e2EPTOjJwnBhsSi6lqxJXedPj6FmyrWUlk1Q44aaTA=
+			pxQI/r/Fovo3oy3oRPteirWi3RqenaZPvxeCthBqSIQ=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.ComponentModel.TypeConverter.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jv8nr8BoXEuGlmpVKcYxS3zHxEOyZLVK+N4oXrQ2bOo=
+			+vsMOLfQXl2pUPYZ7OB16rLkF0AhMMXFdP8t1gbKc90=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.ComponentModel.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AASdkMfIOIAd7/IVHHZLPMGNnI31+oOkhY5To1UFM/Q=
+			RlUttueLl7kK1cG5LexEIknwcUjxDFpfMes0+8+0SEA=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Console.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHNWSFdntoXJRr3icyNLj5393Ft3R9KOYWLryEvgYhE=
+			2m+1iIOUMvCruwx61wElMfjogMOBcS20n1XIhhI2ffQ=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Diagnostics.TraceSource.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SZHJ4pfWevIq7KfcpHf8rhMq9LgwalFbDYhb2nuIPE4=
+			HhEKMz/0FTq+B9943u+7fMfxE5P4YG84o4Fd8ksR/pk=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Drawing.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLhYRmJkhq+IW1swll2krQLZmDI+ooW7FKmiJ6NZO+4=
+			+tT37RiyeoT3HdASsIoedahm4yQwCZZDDH09bJQ8UQg=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Drawing.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4NChB7Gdb4oT9k/Hu4YpE1S0Em76etGwOLH9fQOliNA=
+			9p8ewwQq8wQWJeHzOZN9l1nDQUICFEL19AQjYEjULHM=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Linq.Expressions.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uwkehC2Aqn61ZHOMyQu2Cers+FplKhXMngd0AoA9488=
+			D1jMxFr7QWEIGVcuINN4jiaueZNv2yxMgiVVNToqqBM=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Linq.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iigJeCqSrOpbOlH/OgcH3bDzq1EeM6tpE/Bn8+yC7kk=
+			HtL0SJ1gug6Pc7noOuLIIJ7eynSGFO4IvyGb7pVE8R4=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Memory.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			537LKt6czPkn0PXyvccn+NSCXVvwow8jVhGBeZdtzDI=
+			ylhA7Jljux+Q8A2CAz42uJplMf1f+NVLjAe76V7pMIQ=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Net.Http.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8YMyQyPum9452D5JcVAVFiuBQl00AxJAlbf59OFjWY=
+			h5cHA5wlvMJMDVgwW+EJjZIMHihaMZ5QPS8FtzhOYiE=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Net.Mail.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VIgG4LZwlZxcxK8ojYV8PY/AGfPm6sOD54ANlqX++H8=
+			RzvjU1DLiEqyn9bprDfKLByPgXl7vicyeQLIxNJ0S6w=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Net.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QTNCH7Hh36zlTI0wo1VfY1DTIAmkDJRuhDx5sNl9fis=
+			Kn6tmWlAJQzvo7qrYx+birAChKb7VGAU4XfxDoBIHRw=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Net.Requests.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+w8Zl68TkoOWi1doKmFpBIiK7Z/pgoeT4aJ21AWlupE=
+			SxYudzQSgKfQkUgloQG1Ct6mz9qaFMe7XXz1ip9oXs0=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Net.Security.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5GyJx8tkmbTEp42TQbDwc65DSTgfrjuKq56h/XovAfM=
+			OuE+wIrg/ZULFUNEIVBZyacvCHcq9hU7hMHc+uQN3bE=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Net.ServicePoint.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CSt0fxhWIV+XwGFyyX0Cm+dpqUaUcQxt1v46Gw7WMww=
+			ss2MAQpTrHbYv2E4cZaVr5GCx3GcMMD54M7gIoraP4M=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Numerics.Vectors.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBb9w6IN8GNyXxiwILB1d7QUPJd5nuWYRbxY1ze62ow=
+			X6Quy/J4QaMJGNoU8elmiURoYGdP6nk13Rifp+nA25s=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.ObjectModel.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MpvTpQO2zBErvh7SRjBVIOq/IwDVcCEElRZ8tiHryU8=
+			Dx2gWpx1ENTbrUrPLkNie2dwkDlDOjpfbTmvIN+7xOo=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Private.CoreLib.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			whLUr21CP03JMTUd028x4bCErl0pIOPUSzCyqUa7a5w=
+			qlu46II1Zq/7gll/1sAIeV6/f2vTsslLa79bbcwfopc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Private.Uri.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hpSBAEDmGrpromkEDn6tQ2wF9KcIdgNiUhaMj5VwwZk=
+			Ye/zsyvflWmc702MDy/uLL7jyOv0TLEL+QDRNoHamKo=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Private.Xml.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMuSOMRmAU7m0yZCQ0RbkuBB1AkARKQbWIleiAMKaUE=
+			z7vmYjVjT1CeDIC659SCGpgEp+R0IdR3w17JFdYqjjc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Runtime.InteropServices.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBqe6TFm0w2nJT09UyDLTdvUcm2LsZMMYrlaHJryoag=
+			FuA+OKKcLEzNEMcq9AtgWyRPY5ExmrwZj8iAubIxC70=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Runtime.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0WnIOkfCBPPuwAa4VikuAsqzK+vDBGJ/NG4lDS8WUc=
+			RJi3rrGhQC4Nme/5nnZ6tziJQQc2AxbzOFYZWYYCdrs=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Security.Cryptography.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RTHALr3H2OSJ+KGnXAyOyLzTvBsJIWIYYgxI+wrJoZw=
+			b9EjEh/L8FKcY6ml5HerqX1H91BG2zDgz2s2XWoqK48=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Text.RegularExpressions.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/hFkeNK+NYAOFGKrNXDyrJENeft/oh1dxTeSBzs1TvA=
+			WrQsaiR0uYDlYBvOcY/G6dvH0rA5NiiBS5jCXE/86+Y=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Threading.Thread.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/nJ9UigXZmluSS1XTQUR0Ng9y281b61k0jRbnofsiNE=
+			xl29Z9C3qRET/Ed8TvIjUceEiwJpzlW10wRs82bUYMc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Threading.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LK+xww/ggRhUnqhia4scQkwfQkEfwtmZwb4hJqIPrbA=
+			b1UgmXwN0Fv+Pi1rWfHMI3QfZ7NQTQp+pFJ9DIZrwyk=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.Xml.ReaderWriter.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPMgorM+VafJzMq/xKaJtZa6Ud28kEybDtH9Vj3fid8=
+			kwxxDoADvK5bBGw9L6dpGTQGDhllCZyCSndsMqvE5is=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-arm64/System.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4WR1O1wcn1DhlAnMQbv+ZkMrksAe1+kxYiYW8fBCbs=
+			0NcIQdtW5mFbWn9XvGhjPgWpUdn6dijufwBvdCYnNNc=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-x64/CommunityToolkit.Maui.Core.dll</key>
@@ -430,7 +430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d5Gftg1He9gQaxVItMhwCzug6NfvWO4CtexWkx3pF9k=
+			48o9+7JdT50utR46JCYl5c2OvAsLg/g5HajKPdt9mJA=
 			</data>
 		</dict>
 		<key>MonoBundle/.xamarin/maccatalyst-x64/Microsoft.Extensions.Configuration.Abstractions.dll</key>
@@ -787,7 +787,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zgKDhGM6IzH0SNWmsMympztq4KwWiHpGYFM1FThN5RM=
+			2z26EF/OC577m4RvAumPf7rsb5Bqe8pShxkXj10Zrj0=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Configuration.Abstractions.aotdata.arm64</key>
@@ -1193,7 +1193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7SntQT0/lDY172CoAf2phrMuGjWn5vsIhkCSGv8kvJs=
+			Bdc9Y3yyjU2UVAIJFUPJUlQ1fVymcYW4yPUMu30FdRE=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>

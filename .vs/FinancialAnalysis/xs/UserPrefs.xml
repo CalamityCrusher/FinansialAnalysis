@@ -1,14 +1,19 @@
-﻿<Properties StartupConfiguration="{FB469988-49BB-4406-8124-FD9696FED3C1}|Default" DotNetCore.WorkloadInstallDontShowAgain="True">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.ItemProperties.FinancialAnalysis PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+﻿<Properties DotNetCore.WorkloadInstallDontShowAgain="True" StartupConfiguration="{FB469988-49BB-4406-8124-FD9696FED3C1}|Default">
   <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinancialAnalysis/View/Output13LiquidityPage.xaml.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FinancialAnalysis PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinancialAnalysis/View/Entry21ProfitabilityPage.xaml.cs">
     <Files>
       <File FileName="FinancialAnalysis/MainPage.xaml" Line="111" Column="15" IsPinned="True" />
-      <File FileName="FinancialAnalysis/MainPage.xaml.cs" Line="17" Column="24" IsPinned="True" />
-      <File FileName="FinancialAnalysis/View/Output12FinansialSafetyPage.xaml.cs" Line="34" Column="1" />
-      <File FileName="FinancialAnalysis/View/Output13LiquidityPage.xaml.cs" Line="12" Column="14" />
+      <File FileName="FinancialAnalysis/MainPage.xaml.cs" Line="12" Column="21" IsPinned="True" />
+      <File FileName="FinancialAnalysis/View/Output21ProfitabilityPage.xaml" Line="165" Column="64" IsPinned="True" />
+      <File FileName="FinancialAnalysis/View/Output21ProfitabilityPage.xaml.cs" Line="3" Column="47" IsPinned="True" />
+      <File FileName="FinancialAnalysis/View/Entry21ProfitabilityPage.xaml.cs" Line="25" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,11 +25,12 @@
               </Node>
               <Node name="View" expanded="True">
                 <Node name="Entry12FinansialSafetyPage.xaml" expanded="True" />
-                <Node name="Entry22TurnoverPage.xaml" expanded="True" />
-                <Node name="Output12FinansialSafetyPage.xaml" expanded="True" />
-                <Node name="Output13LiquidityPage.xaml" expanded="True">
-                  <Node name="Output13LiquidityPage.xaml.cs" selected="True" />
+                <Node name="Entry21ProfitabilityPage.xaml" expanded="True">
+                  <Node name="Entry21ProfitabilityPage.xaml.cs" selected="True" />
                 </Node>
+                <Node name="Output12FinansialSafetyPage.xaml" expanded="True" />
+                <Node name="Output13LiquidityPage.xaml" expanded="True" />
+                <Node name="Output21ProfitabilityPage.xaml" expanded="True" />
               </Node>
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
@@ -33,9 +39,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>

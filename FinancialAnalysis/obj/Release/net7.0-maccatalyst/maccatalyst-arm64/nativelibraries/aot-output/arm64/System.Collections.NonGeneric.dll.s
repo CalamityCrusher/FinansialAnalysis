@@ -1671,7 +1671,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 250,109,0,182,9,37,27,201,163,31,68,136,154,122,163,27
+	.byte 89,98,137,0,66,220,205,41,135,242,116,168,28,196,89,124
 	.globl _mono_aot_module_System_Collections_NonGeneric_info
 	.align 3
 _mono_aot_module_System_Collections_NonGeneric_info:

@@ -103,6 +103,11 @@
                 x:Name="labelCurrentRatioDifference"
                 VerticalOptions="End"
                 Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="1" Grid.Row="3"
+                Text="Норма: >= 1.7"
+                VerticalOptions="Center"
+                Style="{StaticResource labelStyle}"/>
 
             <Label
                 Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"
@@ -121,6 +126,11 @@
                 Grid.Column="0" Grid.Row="5"
                 x:Name="labelQuickRatioDifference"
                 VerticalOptions="End"
+                Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="1" Grid.Row="5"
+                Text="Норма: >= 1"
+                VerticalOptions="Center"
                 Style="{StaticResource labelStyle}"/>
 
             <Label
@@ -141,6 +151,11 @@
                 x:Name="labelCashRatioDifference"
                 VerticalOptions="End"
                 Style="{StaticResource labelStyle}"/>
+            <Label
+                Grid.Column="1" Grid.Row="7"
+                Text="Норма: >= 0.2"
+                VerticalOptions="Center"
+                Style="{StaticResource labelStyle}"/>   
 
             <Button
                 Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2"

@@ -157,7 +157,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 226,245,110,25,198,46,115,45,225,63,173,237,226,151,7,84
+	.byte 140,134,22,97,175,244,23,157,30,144,249,166,49,103,117,66
 	.globl _mono_aot_module_System_Xml_ReaderWriter_info
 	.align 3
 _mono_aot_module_System_Xml_ReaderWriter_info:

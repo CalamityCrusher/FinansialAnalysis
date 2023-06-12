@@ -39,39 +39,39 @@ public partial class Output21ProfitabilityPage : ContentPage
               ReturnOnPermanentAssetsEnd = (float)(ProfitEnd / AveragePermanentAssetsEnd * 100),
               ReturnOnPermanentAssetsDifference = (float)(ReturnOnPermanentAssetsEnd - ReturnOnPermanentAssetsStart);
 
-        labelReturnOnSalesStart.Text = $"В начале периода: {ReturnOnSalesStart.ToString()}";
-        labelReturnOnSalesEnd.Text = $"В конце периода: {ReturnOnSalesEnd.ToString()}";
+        labelReturnOnSalesStart.Text = $"В начале периода: {Math.Round(ReturnOnSalesStart, 2).ToString()}";
+        labelReturnOnSalesEnd.Text = $"В конце периода: {Math.Round(ReturnOnSalesEnd, 2).ToString()}";
         if (ReturnOnSalesDifference < 0)
-            labelReturnOnSalesDifference.Text = $"Уменьшение на {(Math.Abs(ReturnOnSalesDifference).ToString())}";
+            labelReturnOnSalesDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(ReturnOnSalesDifference), 2).ToString()}";
         else if (ReturnOnSalesDifference > 0)
-            labelReturnOnSalesDifference.Text = $"Увеличение на {ReturnOnSalesDifference.ToString()}";
+            labelReturnOnSalesDifference.Text = $"Увеличение на {Math.Round(ReturnOnSalesDifference, 2).ToString()}";
         else
             labelReturnOnSalesDifference.Text = "Показатель не изменился";
 
-        labelReturnOnEquityStart.Text = $"В начале периода: {ReturnOnEquityStart.ToString()}";
-        labelReturnOnEquityEnd.Text = $"В конце периода: {ReturnOnEquityEnd.ToString()}";
+        labelReturnOnEquityStart.Text = $"В начале периода: {Math.Round(ReturnOnEquityStart, 2).ToString()}";
+        labelReturnOnEquityEnd.Text = $"В конце периода: {Math.Round(ReturnOnEquityEnd, 2).ToString()}";
         if (ReturnOnEquityDifference < 0)
-            labelReturnOnEquityDifference.Text = $"Уменьшение на {(Math.Abs(ReturnOnEquityDifference).ToString())}";
+            labelReturnOnEquityDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(ReturnOnEquityDifference), 2).ToString()}";
         else if (ReturnOnEquityDifference > 0)
-            labelReturnOnEquityDifference.Text = $"Увеличение на {ReturnOnEquityDifference.ToString()}";
+            labelReturnOnEquityDifference.Text = $"Увеличение на {Math.Round(ReturnOnEquityDifference, 2).ToString()}";
         else
             labelReturnOnEquityDifference.Text = "Показатель не изменился";
 
-        labelReturnOnAssetsStart.Text = $"В начале периода: {ReturnOnAssetsStart.ToString()}";
-        labelReturnOnAssetsEnd.Text = $"В конце периода: {ReturnOnAssetsEnd.ToString()}";
+        labelReturnOnAssetsStart.Text = $"В начале периода: {Math.Round(ReturnOnAssetsStart, 2).ToString()}";
+        labelReturnOnAssetsEnd.Text = $"В конце периода: {Math.Round(ReturnOnAssetsEnd, 2).ToString()}";
         if (ReturnOnAssetsDifference < 0)
-            labelReturnOnAssetsDifference.Text = $"Уменьшение на {(Math.Abs(ReturnOnAssetsDifference).ToString())}";
+            labelReturnOnAssetsDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(ReturnOnAssetsDifference), 2).ToString()}";
         else if (ReturnOnAssetsDifference > 0)
-            labelReturnOnAssetsDifference.Text = $"Увеличение на {ReturnOnAssetsDifference.ToString()}";
+            labelReturnOnAssetsDifference.Text = $"Увеличение на {Math.Round(ReturnOnAssetsDifference, 2).ToString()}";
         else
             labelReturnOnAssetsDifference.Text = "Показатель не изменился";
 
-        labelReturnOnPermanentAssetsStart.Text = $"В начале периода: {ReturnOnPermanentAssetsStart.ToString()}";
-        labelReturnOnPermanentAssetsEnd.Text = $"В конце периода: {ReturnOnPermanentAssetsEnd.ToString()}";
+        labelReturnOnPermanentAssetsStart.Text = $"В начале периода: {Math.Round(ReturnOnPermanentAssetsStart, 2).ToString()}";
+        labelReturnOnPermanentAssetsEnd.Text = $"В конце периода: {Math.Round(ReturnOnPermanentAssetsEnd, 2).ToString()}";
         if (ReturnOnPermanentAssetsDifference < 0)
-            labelReturnOnPermanentAssetsDifference.Text = $"Уменьшение на {(Math.Abs(ReturnOnPermanentAssetsDifference).ToString())}";
+            labelReturnOnPermanentAssetsDifference.Text = $"Уменьшение на {Math.Round(Math.Abs(ReturnOnPermanentAssetsDifference), 2).ToString()}";
         else if (ReturnOnPermanentAssetsDifference > 0)
-            labelReturnOnPermanentAssetsDifference.Text = $"Увеличение на {ReturnOnPermanentAssetsDifference.ToString()}";
+            labelReturnOnPermanentAssetsDifference.Text = $"Увеличение на {Math.Round(ReturnOnPermanentAssetsDifference, 2).ToString()}";
         else
             labelReturnOnPermanentAssetsDifference.Text = "Показатель не изменился";
     }

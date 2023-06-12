@@ -44413,7 +44413,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 180,221,73,187,136,17,139,103,98,249,111,152,84,192,249,8
+	.byte 155,81,20,101,151,2,66,2,24,53,31,103,150,198,241,203
 	.globl _mono_aot_module_System_ComponentModel_TypeConverter_info
 	.align 3
 _mono_aot_module_System_ComponentModel_TypeConverter_info:

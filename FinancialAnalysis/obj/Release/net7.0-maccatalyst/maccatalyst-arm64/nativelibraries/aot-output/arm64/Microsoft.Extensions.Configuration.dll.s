@@ -6019,7 +6019,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0
-	.byte 31,180,130,202,86,146,11,8,193,124,232,153,251,246,58,4
+	.byte 138,133,244,191,248,18,157,204,2,239,150,196,222,186,216,107
 	.globl _mono_aot_module_Microsoft_Extensions_Configuration_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_Configuration_info:
